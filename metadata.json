@@ -1,0 +1,6 @@
+{
+  "name": "Egis Africa Corporate Website",
+  "description": "Modern corporate redesign for Egis Africa featuring an elegant navigation, scrolling client marquee, and team section.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

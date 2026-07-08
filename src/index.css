@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--bg);
+  --color-foreground: var(--fg);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-surface: var(--surface);
+  --color-surface-hover: var(--surface-hover);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+  --font-display: var(--font-display);
+}
+
+:root, body.theme-corporate {
+  --bg: #FFFFFF;
+  --fg: #111827;
+  --primary: #2563EB; 
+  --primary-hover: #1D4ED8;
+  --muted: #6B7280;
+  --border: #E5E7EB;
+  --surface: #F9FAFB;
+  --surface-hover: #F3F4F6;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-display: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body.theme-natural {
+  --bg: #FAF9F6;
+  --fg: #2C2C2C;
+  --primary: #5B6346; 
+  --primary-hover: #4A523A;
+  --muted: #8C8471;
+  --border: #E5E2D9;
+  --surface: #F3F1ED;
+  --surface-hover: #EAE6DF;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-display: "Playfair Display", ui-serif, Georgia, serif;
+}
+
+body.theme-midnight {
+  --bg: #0B1120;
+  --fg: #F8FAFC;
+  --primary: #38BDF8; 
+  --primary-hover: #0EA5E9;
+  --muted: #94A3B8;
+  --border: #1E293B;
+  --surface: #0F172A;
+  --surface-hover: #1E293B;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-display: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body.theme-neobrutalism {
+  --bg: #FFF4E0;
+  --fg: #1E1E24;
+  --primary: #FF5A5F;
+  --primary-hover: #E0484D;
+  --muted: #4A4E69;
+  --border: #1E1E24;
+  --surface: #83E377;
+  --surface-hover: #16DB93;
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+}
+
+body.theme-glassmorphism {
+  --bg: #0F0C29;
+  --fg: #FFFFFF;
+  --primary: #FF0099;
+  --primary-hover: #E6008A;
+  --muted: #E2E8F0;
+  --border: rgba(255, 255, 255, 0.2);
+  --surface: rgba(255, 255, 255, 0.1);
+  --surface-hover: rgba(255, 255, 255, 0.15);
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body.theme-editorial {
+  --bg: #FDFBF7;
+  --fg: #1A1A1A;
+  --primary: #8C271E;
+  --primary-hover: #731F18;
+  --muted: #666666;
+  --border: #D1CDA8;
+  --surface: #FDFBF7;
+  --surface-hover: #F2EFE9;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-display: "Playfair Display", ui-serif, Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
